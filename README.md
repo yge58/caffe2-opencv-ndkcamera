@@ -3,7 +3,7 @@ Integrate Caffe2, OpenCV with Android NDK camera
 
 This project put Android NDK camera, OpenCV, and Caffe2 together.
 
-Source code is based on,
+I am very grateful to the following source code providers,
 
 [1] [NDK camera texture-view sample code](https://github.com/googlesamples/android-ndk/tree/master/camera)
 

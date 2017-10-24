@@ -21,7 +21,7 @@ Therefore, if you see any problem in the code or have any improvement suggestion
 
 # Introduction
 
-We love Caffe, OpenCV and Android, lets make a Android APP including all three. 
+We love Caffe, OpenCV and Android, lets make an Android app including all three. 
 This app aims at efficiency, I think it is the best practive to integrate Caffe, OpenCV with Android natively. The role of Java is (if I am correct) to manage App's life cycle and User Interface which are very important.
 
 # Source Code Structure
@@ -50,7 +50,7 @@ This app aims at efficiency, I think it is the best practive to integrate Caffe,
                                |__com__sample__textureview
                                                        |__ViewActivity.java (App's life cycle, UI)
                          |__libs
-                               |__armeabi-v7a (This is the only ABI supportet unfortunately)
+                               |__armeabi-v7a (This is the only ABI supported unfortunately)
                                             |__opencv (opencv4android libraries)
                                             |__(the rest libraries are copied from AICamera)
                          |__res

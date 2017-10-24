@@ -30,7 +30,9 @@ Caffe, OpenCV and NDK are all C++ implemented. The program's workflow is,
 
 [3] cpp - run caffe
 
-[4] cpp - return result back to java
+[4] cpp - return results back to java
+
+[5] java - display results
 
 That's it.
 

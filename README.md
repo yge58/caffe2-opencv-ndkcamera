@@ -1,7 +1,5 @@
 # caffe2-ndk-camera
-Integrate Caffe2, OpenCV with Android NDK camera
-
-This project put Android NDK camera, OpenCV, and Caffe2 together.
+Integrating Caffe2, OpenCV with Android NDK Native camera API.
 
 I am very grateful to the following source code providers,
 

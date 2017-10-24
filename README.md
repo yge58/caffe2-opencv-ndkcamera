@@ -1,5 +1,5 @@
 
-# Integrating Caffe2, OpenCV with Android NDK Native Camera API.
+This demo aims at integrating Caffe2, OpenCV with Android at native level.
 
 Source code is based upon the following and google ndk doc, I am extremly grateful to them,   
 

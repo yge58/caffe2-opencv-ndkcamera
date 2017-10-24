@@ -20,7 +20,7 @@ The App is working, but far from finishing. Issues and bugs (memory leaks, resou
 # Introduction
 
 We love Caffe, OpenCV and Android, let's make an app including all three. 
-Caffe, OpenCV and NDK are all C++ implemented. The program's workflow is,
+The program's workflow is as follows:
 
 [0] Java - start app - init caffe2
 
@@ -34,7 +34,7 @@ Caffe, OpenCV and NDK are all C++ implemented. The program's workflow is,
 
 [5] java - display results
 
-That's it.
+That's it. Enjoy!
 
 # Source Code Structure
 

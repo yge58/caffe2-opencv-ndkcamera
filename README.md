@@ -13,9 +13,9 @@ Source code is based upon the following and google ndk doc, I am deeply grateful
 
 # Preface
 
-Hello, welcome. As title said, the demo deals directly with Android NDK camara c++ api. In this project, I tried to minimize java code interacting with Caffe. Efficiency is the goal.
+Hello, welcome. The demo deals directly with Android NDK camara C++ api. Efficiency is the goal. Performance is put at top priority.
 
-The App is working, but far from finishing. Issues and bugs (memory leaks, resource allocation and free, multi-thread concurrency...)if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful.
+The App is working, but far from finishing. Issues and bugs (memory leaks, resource allocation and free, threads concurrency, how to balance workload between threadd and etc ... ) if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful. 
 
 # Introduction
 

@@ -1,4 +1,4 @@
-# caffe2-android-ndk-camera
+# caffe2-ndk-camera
 Integrate Caffe2, OpenCV with Android NDK camera
 
 This project put Android NDK camera, OpenCV, and Caffe2 together.

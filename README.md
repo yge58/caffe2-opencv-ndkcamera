@@ -20,11 +20,16 @@ The App is working, but far from finishing. Issues and bugs (memory leaks, resou
 # Introduction
 
 We love Caffe, OpenCV and Android, let's make an app including all three. 
-Caffe, OpenCV and NDK are all C++ implemented. The program workflow basically is 
+Caffe, OpenCV and NDK are all C++ implemented. The program's workflow is,
+
 [0] Java - start app - init caffe2
+
 [1] cpp - read image from buffer (an array of uchar) into opencv
+
 [2] cpp - image pre-processing (resize, rescale, split into BGR channel)
+
 [3] cpp - run caffe
+
 [4] cpp - return result back to java
 
 That's it.

@@ -1,9 +1,9 @@
 
-- Project is about:   
+# Project is about:   
 
 Integrating Caffe2, OpenCV with Android NDK Native Camera API.
 
-Source code is based upon the following code, and I am extremly grateful to them.       
+Source code is based upon the following and google ndk doc, I am extremly grateful to them,   
 
 [1] The whole project is based on [Google NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
 
@@ -13,18 +13,18 @@ Source code is based upon the following code, and I am extremly grateful to them
 
 [4] The OpenCV libraries are obtained from [OpenCV4Android](https://github.com/opencv/opencv/tree/master/samples/android)      
 
-- Preface
+# Preface
 
-This is my first Android App. I am a newbie to Android development, and a C++ learner. The App is working, but is far from finishing. 
-Issues such as memory leak, resource management, user experience, Java calling C++ through JNI, CMake, NDK native API... are still existing. 
+This is my first Android App. I am a newbie to Android development, and a C++ starter. The App is working, but is far from finishing. 
+Issues or bugs such as memory leak, resource management, user experience, Java calling C++ through JNI, CMake, NDK native API... are still existing. 
 Therefore, if you see any problem in the code or have any improvement suggestions, please help me by filing as many issues as you want, and I will be very grateful to them.
 
-- Introduction
+# Introduction
 
 We love Caffe, OpenCV and Android, lets make a Android APP including all three. 
-This app aims at efficiency, therefore, I think it is the best to integrate Caffe, OpenCV with Android natively in C++. Therefore, I believe the role of Java is to manage App's life cycle and User Interface, user experience which are very important.
+This app aims at efficiency, I think it is the best practive to integrate Caffe, OpenCV with Android natively. The role of Java is (if I am correct) to manage App's life cycle and User Interface which are very important.
 
-- Source Code Structure
+# Source Code Structure
 
   In texture-view,
            
@@ -57,7 +57,7 @@ This app aims at efficiency, therefore, I think it is the best to integrate Caff
                          |__AndroidManifest.xml
                                
 
-## Screenshots
+# Screenshot
 -----------
 ![screenshot](https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)
 

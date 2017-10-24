@@ -40,7 +40,7 @@ This app aims at efficiency, I think it is the best practive to integrate Caffe,
                                |__camera  (Android NDK native Camera API)
                                |__Eigen   (Eigen headers)
                                |__google  (protobuf headers)
-                               |__opencv  (needed for opencv2)
+                               |__opencv  (opencv headers)
                                |__opencv2 (opencv2 headers)
                                |__android_main.cpp   ( 1. contains all c++ files that are called from Java via JNI)
                                                      ( 2. handles all the native activities including camera, caffe, opencv.)

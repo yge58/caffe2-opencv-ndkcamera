@@ -3,7 +3,7 @@ Integrating Caffe2, OpenCV with Android NDK Native camera API.
 
 I am very grateful to the following source code providers,
 
-[1] [NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
+[1] [Google NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
 
 [2] [Caffe2 example](https://github.com/leonardvandriel/caffe2_cpp_tutorial/blob/master/src/caffe2/binaries/pretrained.cc)
 

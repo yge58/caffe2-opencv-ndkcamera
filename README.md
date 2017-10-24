@@ -1,7 +1,7 @@
 
 This demo aims at integrating Caffe2, OpenCV with Android at native level.
 
-Source code is based upon the following and google ndk doc, I am extremly grateful to them,   
+Source code is based upon the following and google ndk doc, I am deeply grateful to them,   
 
 [1] The whole project is based on [Google NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
 

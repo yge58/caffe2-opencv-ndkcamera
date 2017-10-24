@@ -31,7 +31,7 @@ This app aims at efficiency, therefore, I think it is the best practice to integ
               |__src
                    |__main
                          |__assets
-                               |__squeeze_init_net.pb    (squeeze net CNN artecture file)
+                               |__squeeze_init_net.pb    (squeeze net architecture file)
                                |__squeeze_predict_net.pb (squeeze net pretrained weights)
                          |__cpp
                                |__caffe2  (caffe2 headers)

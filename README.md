@@ -1,7 +1,5 @@
 
-# Project is about:   
-
-Integrating Caffe2, OpenCV with Android NDK Native Camera API.
+# Integrating Caffe2, OpenCV with Android NDK Native Camera API.
 
 Source code is based upon the following and google ndk doc, I am extremly grateful to them,   
 

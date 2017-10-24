@@ -18,6 +18,3 @@ I am very grateful to the following source code providers,
 -----------
 ![screenshot](device-2017-10-23-185701.png)
 
-
-As my first Android App, I want it to be simple, and fast. Efficiency is the goal of this simple App.
-Any comments and suggestions are helpful.

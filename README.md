@@ -22,7 +22,7 @@ Therefore, if you see any problem in the code or have any improvement suggestion
 # Introduction
 
 We love Caffe, OpenCV and Android, lets make an Android app including all three. 
-This app aims at efficiency, I think it is the best practive to integrate Caffe, OpenCV with Android natively. The role of Java is (if I am correct) to manage App's life cycle and User Interface which are very important.
+This app aims at efficiency, therefore, I think it is the best practice to integrate Caffe, OpenCV with Android natively in C++. The role of Java is (if I am correct) to only manage App's life cycle and User Interface which are very important.
 
 # Source Code Structure
 

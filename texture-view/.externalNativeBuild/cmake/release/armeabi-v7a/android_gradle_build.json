@@ -1,0 +1,199 @@
+
+{
+	"buildFiles" : [ "/home/yan/camera/texture-view/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "IlmImf",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/libIlmImf.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"NNPACK-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "NNPACK",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/libCAFFE2_NNPACK.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"caffe2-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "caffe2",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/libCaffe2_CPU.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"cpufeatures-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "cpufeatures",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a --target cpufeatures",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -I/home/yan/camera/texture-view/src/main/cpp -I/home/yan/camera/texture-view/src/main/cpp/camera -I/home/yan/camera/texture-view/src/main/cpp/opencv -I/home/yan/camera/texture-view/src/main/cpp/opencv2 -I/home/yan/camera/texture-view/src/main/cpp/caffe2 -I/home/yan/camera/texture-view/src/main/cpp/Eigen -I/home/yan/camera/texture-view/src/main/cpp/protobuf -I/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a/libcpufeatures.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"glog-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "glog",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/libglog.so",
+			"toolchain" : "11623287784116073175"
+		},
+		"libjasper-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libjasper",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/liblibjasper.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"libjpeg-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libjpeg",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/liblibjpeg.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"libpng-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libpng",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/liblibpng.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"libtiff-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libtiff",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/liblibtiff.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"ndk-module-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ndk-module",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a --target ndk-module",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dndk_module_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp -I/home/yan/camera/texture-view/src/main/cpp/camera -I/home/yan/camera/texture-view/src/main/cpp/opencv -I/home/yan/camera/texture-view/src/main/cpp/opencv2 -I/home/yan/camera/texture-view/src/main/cpp/caffe2 -I/home/yan/camera/texture-view/src/main/cpp/Eigen -I/home/yan/camera/texture-view/src/main/cpp/protobuf -I/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/android_main.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dndk_module_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp -I/home/yan/camera/texture-view/src/main/cpp/camera -I/home/yan/camera/texture-view/src/main/cpp/opencv -I/home/yan/camera/texture-view/src/main/cpp/opencv2 -I/home/yan/camera/texture-view/src/main/cpp/caffe2 -I/home/yan/camera/texture-view/src/main/cpp/Eigen -I/home/yan/camera/texture-view/src/main/cpp/protobuf -I/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera/image_reader.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dndk_module_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp -I/home/yan/camera/texture-view/src/main/cpp/camera -I/home/yan/camera/texture-view/src/main/cpp/opencv -I/home/yan/camera/texture-view/src/main/cpp/opencv2 -I/home/yan/camera/texture-view/src/main/cpp/caffe2 -I/home/yan/camera/texture-view/src/main/cpp/Eigen -I/home/yan/camera/texture-view/src/main/cpp/protobuf -I/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera/camera_manager.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dndk_module_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp -I/home/yan/camera/texture-view/src/main/cpp/camera -I/home/yan/camera/texture-view/src/main/cpp/opencv -I/home/yan/camera/texture-view/src/main/cpp/opencv2 -I/home/yan/camera/texture-view/src/main/cpp/caffe2 -I/home/yan/camera/texture-view/src/main/cpp/Eigen -I/home/yan/camera/texture-view/src/main/cpp/protobuf -I/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera/camera_engine.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dndk_module_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp -I/home/yan/camera/texture-view/src/main/cpp/camera -I/home/yan/camera/texture-view/src/main/cpp/opencv -I/home/yan/camera/texture-view/src/main/cpp/opencv2 -I/home/yan/camera/texture-view/src/main/cpp/caffe2 -I/home/yan/camera/texture-view/src/main/cpp/Eigen -I/home/yan/camera/texture-view/src/main/cpp/protobuf -I/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera/camera_listeners.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dndk_module_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp -I/home/yan/camera/texture-view/src/main/cpp/camera -I/home/yan/camera/texture-view/src/main/cpp/opencv -I/home/yan/camera/texture-view/src/main/cpp/opencv2 -I/home/yan/camera/texture-view/src/main/cpp/caffe2 -I/home/yan/camera/texture-view/src/main/cpp/Eigen -I/home/yan/camera/texture-view/src/main/cpp/protobuf -I/root/Android/Sdk/ndk-bundle/sources/android/cpufeatures -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi-v7a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera/camera_utils.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/yan/camera/texture-view/build/intermediates/cmake/release/obj/armeabi-v7a/libndk-module.so",
+			"toolchain" : "11623287784116073175"
+		},
+		"opencv_core-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_core",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/libopencv_core.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"opencv_highgui-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/libopencv_highgui.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"opencv_imgproc-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/libopencv_imgproc.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"protobuf-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "protobuf",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/libprotobuf.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"tbb-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tbb",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/opencv/libtbb.a",
+			"toolchain" : "11623287784116073175"
+		},
+		"thread_pool-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "thread_pool",
+			"buildType" : "release",
+			"output" : "/home/yan/camera/texture-view/src/main/cpp/../libs//armeabi-v7a/libCAFFE2_PTHREADPOOL.a",
+			"toolchain" : "11623287784116073175"
+		}
+	},
+	"toolchains" : 
+	{
+		"11623287784116073175" : 
+		{
+			"cCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

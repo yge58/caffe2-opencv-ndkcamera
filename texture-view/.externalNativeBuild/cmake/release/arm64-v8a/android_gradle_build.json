@@ -1,0 +1,62 @@
+
+{
+	"buildFiles" : [ "/home/yan/camera/texture-view/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yan/camera/texture-view/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"camera_textureview-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "camera_textureview",
+			"buildCommand" : "/root/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/yan/camera/texture-view/.externalNativeBuild/cmake/release/arm64-v8a --target camera_textureview",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dcamera_textureview_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp/../../../../common -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/android_main.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dcamera_textureview_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp/../../../../common -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera_manager.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dcamera_textureview_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp/../../../../common -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera_engine.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dcamera_textureview_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp/../../../../common -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/texture-view/src/main/cpp/camera_listeners.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/root/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/root/Android/Sdk/ndk-bundle/sysroot  -Dcamera_textureview_EXPORTS -I/home/yan/camera/texture-view/src/main/cpp/../../../../common -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /root/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -Werror -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/yan/camera/common/utils/camera_utils.cpp",
+					"workingDirectory" : "/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/yan/camera/texture-view/build/intermediates/cmake/release/obj/arm64-v8a/libcamera_textureview.so",
+			"toolchain" : "11623287784116073175"
+		}
+	},
+	"toolchains" : 
+	{
+		"11623287784116073175" : 
+		{
+			"cCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/root/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

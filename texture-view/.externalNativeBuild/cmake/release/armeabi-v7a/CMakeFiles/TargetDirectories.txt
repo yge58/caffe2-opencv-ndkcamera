@@ -1,0 +1,4 @@
+/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/ndk-module.dir
+/home/yan/camera/texture-view/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/cpufeatures.dir

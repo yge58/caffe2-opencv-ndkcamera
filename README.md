@@ -19,8 +19,10 @@ Therefore, if you see any problem in the code or have any improvement suggestion
 
 # Introduction
 
-We love Caffe, OpenCV and Android, lets make an Android app including all three. 
-This app aims at efficiency, therefore, I think it is the best practice to integrate Caffe, OpenCV with Android natively in C++. The role of Java is (if I am correct) to only manage App's life cycle and User Interface which are very important.
+We love Caffe, OpenCV and Android, let's make an app including all three. 
+Caffe, at its  core, is C++, OpenCV is C++ implemented as well. If we want fast image classification on Android, it is natural to deal with NDK directly. That is, read image from ndk camera, pre-processing image using OpenCV, finally go through caffe.
+
+JAVA is for user interface and app's lifecycle which are also important.
 
 # Source Code Structure
 

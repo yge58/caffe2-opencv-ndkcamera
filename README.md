@@ -13,14 +13,14 @@ Source code is based upon the following and google ndk doc, I am extremly gratef
 
 # Preface
 
-This is my first Android App. I am a newbie to Android development, and a C++ starter. The App is working, but is far from finishing. 
-Issues and bugs such as memory leak, resource management, user experience, Java calling C++ through JNI, CMake, NDK native API... are still existing. 
-Therefore, if you see any problem in the code or have any improvement suggestions, please help me by filing as many issues as you want, and I will be very grateful to them.
+Hello, welcome. As title said, the demo deals directly with Android NDK camara c++ api. In this project, I tried to minimize java code interacting with Caffe. Efficiency is the goal.
+
+The App is working, but is far from finishing. Issues and bugs, if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful.
 
 # Introduction
 
 We love Caffe, OpenCV and Android, let's make an app including all three. 
-Caffe, at its  core, is C++, OpenCV is C++ implemented as well. If we want fast image classification on Android, it is natural to deal with NDK directly. That is, read image from ndk camera, pre-processing image using OpenCV, finally go through caffe.
+Caffe, at its  core, is C++, OpenCV is C++ implemented as well. If we want real-time image classification on Android, it is natural to deal with NDK directly. That is, read image from ndk camera, pre-processing image using OpenCV, finally go through caffe.
 
 JAVA is for user interface and app's lifecycle which are also important.
 

@@ -16,7 +16,7 @@ Source code is based upon the following and google ndk doc, I am extremly gratef
 # Preface
 
 This is my first Android App. I am a newbie to Android development, and a C++ starter. The App is working, but is far from finishing. 
-Issues or bugs such as memory leak, resource management, user experience, Java calling C++ through JNI, CMake, NDK native API... are still existing. 
+Issues and bugs such as memory leak, resource management, user experience, Java calling C++ through JNI, CMake, NDK native API... are still existing. 
 Therefore, if you see any problem in the code or have any improvement suggestions, please help me by filing as many issues as you want, and I will be very grateful to them.
 
 # Introduction

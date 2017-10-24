@@ -20,9 +20,14 @@ The App is working, but far from finishing. Issues and bugs (memory leaks, resou
 # Introduction
 
 We love Caffe, OpenCV and Android, let's make an app including all three. 
-Caffe, at its  core, is C++, OpenCV is C++ implemented as well. If we want real-time image classification on Android, it is natural to deal with NDK directly. That is, read image from ndk camera, pre-processing image using OpenCV, finally go through caffe.
+Caffe, OpenCV and NDK are all C++ implemented. The program workflow basically is 
+[0] Java - start app - init caffe2
+[1] cpp - read image from buffer (an array of uchar) into opencv
+[2] cpp - image pre-processing (resize, rescale, split into BGR channel)
+[3] cpp - run caffe
+[4] cpp - return result back to java
 
-JAVA is for user interface and app's lifecycle which are also important.
+That's it.
 
 # Source Code Structure
 

@@ -1,7 +1,5 @@
 Project: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A demo Android App integrating Caffe2, OpenCV with Android NDK native Camera API. 
-
-Time: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sept. 2017 - Oct. 2017
-____________________________________________________________________________________
+_______________________________________________________________________________________________________________________________
 
 This demo aims at integrating Caffe2, OpenCV with Android at native level.
 

@@ -516,16 +516,6 @@ void ImageReader::RunCaffe(AImage *image)
     int height = size.height;
     //LOGI("cv width = %d. cv height = %d ", width, height);
 
-    // crop into square image
-    int big, small;
-    if (width > height) {
-        big = width;
-        small = height;
-    }
-    else{
-        big = height;
-        small = width;
-    }
     //cv::Rect crop_square = {big-small, 0, small, small};
     cv::Rect crop_square = {0, 0, width, height};
     cv::Mat src_ = src(crop_square);

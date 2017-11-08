@@ -20,7 +20,7 @@ Issues and bugs (memory leaks, resource allocation and free, threads concurrency
 
 [2] cpp - OpenCV image pre-processing (resize, rescale, split into BGR channel)
 
-[3] cpp - run caffe
+[3] cpp - run caffe in background
 
 [4] cpp - get classification results.
 

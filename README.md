@@ -1,9 +1,6 @@
-Project: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A demo Android App integrating Caffe2, OpenCV with Android NDK native Camera API. 
-_______________________________________________________________________________________________________________________________
+Combine Caffe2, OpenCV and NDKCamera in C++. 
 
-This demo aims at integrating Caffe2, OpenCV with Android at native level.
-
-Source code is based upon the following and google ndk doc, I am deeply grateful to them,   
+Source code is based upon the following,
 
 [1] Android app is based on [Google NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
 
@@ -13,32 +10,22 @@ Source code is based upon the following and google ndk doc, I am deeply grateful
 
 [4] The OpenCV libraries are obtained from [OpenCV4Android](https://github.com/opencv/opencv/tree/master/samples/android)      
 
-# Preface
-
-Hello, welcome. The demo deals directly with Android NDK camara C++ api. Efficiency is the goal. 
-
-The App is working, but far from finishing. 
-
 Issues and bugs (memory leaks, resource allocation and free, threads concurrency, how to balance workload between threadd and etc ... ) if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful. 
 
-# Introduction
+# Workflow
 
-We love Caffe, OpenCV and Android, let's make an app including all three. 
-The program's workflow is as follows:
+[0] Java - start app - init caffe2(JNI call)
 
-[0] Java - start app - init caffe2
+[1] cpp - send image buffer directly to OpenCV.
 
-[1] cpp - read image from buffer (an array of uchar) into opencv
-
-[2] cpp - image pre-processing (resize, rescale, split into BGR channel)
+[2] cpp - OpenCV image pre-processing (resize, rescale, split into BGR channel)
 
 [3] cpp - run caffe
 
-[4] cpp - return results back to java
+[4] cpp - get classification results.
 
 [5] java - display results
 
-That's it. Enjoy!
 
 # Source Code Structure
 

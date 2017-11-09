@@ -1,4 +1,4 @@
-Combine Caffe2, OpenCV and NDKCamera in C++. 
+Combining Caffe2, OpenCV and NDKCamera.
 
 Source code is based upon the following,
 
@@ -12,7 +12,7 @@ Source code is based upon the following,
 
 Issues and bugs (memory leaks, resource allocation and free, threads concurrency, how to balance workload between threadd and etc ... ) if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful. 
 
-# Workflow
+# Program Workflow
 
 [0] Java - start app - init caffe2(JNI call)
 

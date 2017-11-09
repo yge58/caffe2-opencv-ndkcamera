@@ -18,13 +18,13 @@ Issues and bugs (memory leaks, resource allocation and free, threads concurrency
 
 [1] cpp - send image buffer directly to OpenCV.
 
-[2] cpp - OpenCV image pre-processing (resize, rescale, split into BGR channel)
+[2] cpp - image pre-processing (resize, rescale, split into BGR channel)
 
 [3] cpp - run caffe in background
 
 [4] cpp - get classification results.
 
-[5] java - display results
+[5] Java - wait for result from cpp, and display results
 
 
 # Source Code Structure

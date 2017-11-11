@@ -1,5 +1,10 @@
 Combining Caffe2, OpenCV and NDKCamera.
 
+# Screenshot
+-----------
+![screenshot](https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)
+
+
 Source code is based upon the following,
 
 [1] Android app is based on [Google NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
@@ -46,7 +51,5 @@ Issues and bugs (memory leaks, resource allocation and free, threads concurrency
                          |__AndroidManifest.xml
                                
 
-# Screenshot
------------
-![screenshot](https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)
+
 

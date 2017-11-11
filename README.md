@@ -1,4 +1,4 @@
-Combining Caffe2, OpenCV and NDKCamera.
+A demo android ndk app combining Caffe2, OpenCV and NDKCamera (texture-view).
 
 # Screenshot
 -----------

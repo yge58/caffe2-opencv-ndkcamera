@@ -6,7 +6,6 @@ You could take a photo and classify it. But often people like me are impatient a
 
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
 Caffe and opencv are written in c++, for the sake of performance, is it better to integrate all of them in c++. I am not sure, is it?
-
 Believe me, I am A BIG Java fan. Java, is so neat and clean to read and write. But, for the sake performance, people like me have doubts, others dont. 
 
 Anyway, I intended to speed up real-time image classification by eliminating java code as much as possible.

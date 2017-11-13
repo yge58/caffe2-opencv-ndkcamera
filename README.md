@@ -8,17 +8,15 @@ Folks like me want image classification result as fast as it could be.
 For the sake of performance, is it better to deal with them natively in cpp?
 If performance suffers, it might be a better choice to do the following in NDK.
 
-<1> handle camera at low-level, natively in cpp
+<1> handle camera at low-level in cpp
 
-<2> retrive raw image data directly in cpp.
+<2> retrive raw image data in cpp.
 
-<3> input raw image data to opencv.
-
-<4> pre-process image in opencv.
+<3> let opencv handle the raw data. (process raw data so that caffe can recognize it.)
 
 <5> input image to caffe, and run caffe.
 
-<6> retrive result from caffe, and call java, "hey java bro, result is ready, display it."
+<6> caffe is done, time to inform java, "hey java bro, result is ready, display it."
 
 All of the above happen in background threads.
 

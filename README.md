@@ -16,7 +16,7 @@ If performance suffers, it might be a better choice to do the following in NDK.
 
 <5> input image to caffe, and run caffe.
 
-<6> caffe is done, time to inform java, "hey java bro, result is ready, display it."
+<6> when caffe is done, it's time to inform java, "hey java bro, result is ready, display it."
 
 All of the above happen in background threads.
 

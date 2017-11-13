@@ -4,7 +4,7 @@ For the purpose of real-time image classificaiton (e.g., open a camera, classify
 # Why real-time image classification?
 You could take a photo and classify it. But often people like me are not interested in the photo, but the result from classification.
 
-# There is already similar (tensorflow or caffe or torch) based cpp. Why created this app, in other words, what is the difference?
+# There are already similar apps based on tensorflow, caffe or torch. Why created this app, in other words, what is the difference?
 I intended to speed up real-time image classification by eliminating interaction between ndk C++ side and Java side as much as possible.
 Since both caffe and opencv are written in c++, it is natural to integrate them with NDK camera API. 
 

@@ -8,7 +8,6 @@ Since both caffe and opencv are written in c++, it is natural to integrate them 
 The whole caffe classification process is taken place in cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.
 I admit that code is extreamly messy and unorganized. Well, as my first app, I will try to do better.
 
-
 # Screenshot on HUAWEI Mate 9
 -----------
 ![screenshot](https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)

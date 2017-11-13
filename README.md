@@ -15,9 +15,8 @@ Java, of course, plays a crutial role in app lifecycle and user experience.
 # Where is caffe classification taken place? 
 The whole caffe classification process is taken place in cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.
 I appologize for the messy and unorganized code that I wrote. Well, this is my first app after all.
-# Screenshot on huawei Mate 9
------------
-![screenshot](https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)
+# Screenshot (6.8 fps on Huawei mate 9)
+https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png
 
 
 Source code is based upon the following,

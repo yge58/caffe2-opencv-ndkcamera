@@ -1,6 +1,6 @@
 A demo android ndk app combining Caffe2, OpenCV and NDKCamera (texture-view).
 
-# Why I create this app?
+# Why I created this app?
 I intended to speed up real-time image classification by eliminating interaction between ndk C++ with Java.
 Since both caffe and opencv are written in c++, it is natural to integrate them with NDK camera API. 
 

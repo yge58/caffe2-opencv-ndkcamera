@@ -2,7 +2,7 @@
 For the purpose of real-time image classificaiton (e.g., open a camera, classify an image as fast as you can), an android app integrating native camera, caffe2, opencv in C++ is created.
 
 # Why real-time?
-Folks like me are impatient. Instead of taking a photo and send it to caffe, I like to see the result in real-time.
+Instead of taking a photo and send it to caffe waiting for results, some impatient people love to see results immediately, or better, in real-time. 
 
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
 For the sake of performance, is it better to deal with them natively in cpp?

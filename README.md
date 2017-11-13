@@ -4,8 +4,6 @@ For the purpose of real-time image classificaiton (e.g., open a camera, classify
 # Why real-time?
 Folks like me want image classification result as fast as it could be.
 
-( Maybe it is better to add a button to "freeze" the camera preview frame and classificaiton process.)
-
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
 For the sake of performance, is it better to deal with them natively in cpp?
 If performance suffers, it might be a better choice to do the following in NDK.

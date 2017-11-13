@@ -5,10 +5,11 @@ For the purpose of real-time image classificaiton (e.g., open a camera, classify
 You could take a photo and classify it. But often people like me are not interested in the photo, but the result from classification.
 
 # There are already similar apps based on tensorflow, caffe or torch. Why created this app, in other words, what is the difference?
-To my best knowledge, these apps involve too much java code. (I am a BIG java fan!)
-Since both caffe and opencv are written in c++, I think it is better to code all of them in c++. Java, of course, is needed.
-So I intended to speed up real-time image classification by eliminating interaction between ndk C++ side and Java side as much as possible.
+Since both caffe and opencv are written in c++, I think it is better to code all of them in c++. 
 
+Java, of course, is needed.
+
+I intended to speed up real-time image classification by eliminating java code as much as possible.
 
 # Where is caffe classification taken place? 
 The whole caffe classification process is taken place in cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.

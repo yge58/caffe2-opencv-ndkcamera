@@ -2,13 +2,12 @@
 For the purpose of real-time image classificaiton (e.g., open a camera, classify an image as fast as you can), an android app integrating native camera, caffe2, opencv in C++ is created.
 
 # Why real-time?
-You could take a photo and classify it. But often people like me are impatient and not interested in the photo itself, but only the classification result which is computd at bullet speed.
+You could take a photo and classify it. But often people like me are impatient and not interested in the photo itself, but only the classification result that is computed at bullet speed.
 
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
-Caffe and opencv are written in c++, for the sake of performance, is it better to integrate all of them in c++. I am not sure, is it?
-Believe me, I am A BIG Java fan. Java, is so neat and clean to read and write. But, for the sake performance, people like me have doubts, others dont. 
-
-Anyway, I intended to speed up real-time image classification by eliminating java code as much as possible.
+Caffe and opencv are written in c++, for the sake of performance, it is better to integrate all of them in c++. I am not sure, is it?
+If performance suffer because of Java, and I am sure about the whole JNI "thing", a pure cpp app might improve.
+Therefore I intended to speed up real-time image classification by eliminating java code which is involved in retrieving image source, calling caffe, and other stuff involved in classification. Java, of course, plays a crutial role of app lifecycle and user experience.
 
 # Where is caffe classification taken place? 
 The whole caffe classification process is taken place in cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.

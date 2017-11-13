@@ -4,9 +4,8 @@ For the purpose of real-time image classificaiton (e.g., open a camera, classify
 # Why real-time?
 Instead of taking a photo and send it to caffe waiting for results, some people would love to see results immediately, or better, in real-time. 
 
-# There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
-For the sake of performance, is it better to deal with them natively in cpp?
-If performance suffers, it might be a better choice to do the following in NDK.
+# Why created this app, in other words, what is the difference?
+The main point is real-time image classification. Normally, we would create a camera in java, an image reader in java, send image from java to cpp, run caffe in cpp, and send result back to java. Here, I changed only a little bit,
 
 <1> handle camera at low-level in cpp
 

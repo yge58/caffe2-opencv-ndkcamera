@@ -7,7 +7,7 @@ Some people want image classification result at bullet speed.
 ( Maybe it is better to add a button to "freeze" the camera preview frame and classificaiton process.)
 
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
-Some folks created a Java library for both caffe and opencv, why? 
+There are some Java library created for using caffe and opencv in Android development.
 
 Caffe and opencv are written in c++, is it better to deal with them in c++ directly for better performance?
 I am not sure, is it?

@@ -4,6 +4,8 @@ For the purpose of real-time image classificaiton (e.g., open a camera, classify
 # Why real-time?
 Well, often people like me are impatient, and are not interested in the photo itself, only care about the result. And how fast to get result.
 
+Maybe it is better to add a button to "pulse" the camera preview frame and classificaiton process.
+
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
 Caffe and opencv are written in c++, for the sake of performance, it is better to integrate all of them in c++. 
 

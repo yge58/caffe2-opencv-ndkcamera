@@ -4,8 +4,8 @@ For the purpose of real-time image classificaiton (e.g., open a camera, classify
 # Why real-time?
 You could take a photo and classify it. But often people like me are impatient and not interested in the photo itself, but only the classification result which is computd at bullet speed.
 
-# There are already similar apps based on tensorflow, caffe or torch. Why created this app, in other words, what is the difference?
-Since both caffe and opencv are written in c++, I think it is better to integrate all of them in c++. 
+# There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
+Caffe and opencv are written in c++, for the sake of performance, is it better to integrate all of them in c++. I am not sure, is it?
 
 Believe me, I am A BIG Java fan. Java, is so neat and clean to read and write. But, for the sake performance, people like me have doubts, others dont. 
 

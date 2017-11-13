@@ -6,8 +6,7 @@ You could take a photo and classify it. But often people like me are impatient a
 
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
 Caffe and opencv are written in c++, for the sake of performance, it is better to integrate all of them in c++. I am not sure, is it?
-If performance suffer because of Java, and I am sure about the whole JNI "thing", a pure cpp app might improve.
-Therefore I intended to speed up real-time image classification by eliminating java code which is involved in retrieving image source, calling caffe, and other stuff involved in classification. Java, of course, plays a crutial role of app lifecycle and user experience.
+If performance suffer because of Java, NDK code might come to rescure. Therefore, I intended to speed up real-time image classification by eliminating java code which is involved in retrieving image source, calling caffe, and other stuff involved in classification. Java, of course, plays a crutial role of app lifecycle and user experience.
 
 # Where is caffe classification taken place? 
 The whole caffe classification process is taken place in cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.

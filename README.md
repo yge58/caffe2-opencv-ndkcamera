@@ -22,7 +22,7 @@ If performance suffers, it might be a better choice to do the following in NDK.
 
 <6> retrive result from caffe, and call java, "hey java bro, result is ready, display it."
 
-All of the above happen in background threads. The classification process is happened in background.
+All of the above happen in background threads.
 
 Java, of course, plays a crutial role in app lifecycle and user experience.
 

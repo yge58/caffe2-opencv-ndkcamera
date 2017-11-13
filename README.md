@@ -5,7 +5,7 @@ I intended to speed up real-time image classification by eliminating interaction
 Since both caffe and opencv are written in c++, it is natural to integrate them with NDK camera API. 
 
 
-# where is caffe code taken place?
+# where is caffe classification taken place?
 The whole caffe classification process is taken place in cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.
 I admit that code is extreamly messy and unorganized. Well, as my first app, I will try to do better.
 

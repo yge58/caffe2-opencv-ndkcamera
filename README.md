@@ -18,7 +18,7 @@ If performance suffers, it might be a better choice to do the following in NDK.
 
 <6> when caffe is done, it's time to inform java, "hey java bro, result is ready, display it."
 
-All of the above happen in background threads.
+All of the above cpp code happen in background threads.
 
 Java, of course, plays a crutial role in app lifecycle and user experience.
 

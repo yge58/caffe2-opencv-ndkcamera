@@ -18,20 +18,6 @@ I appologize for the messy and unorganized code that I wrote. Well, this is my f
 # Screenshot (6.8 fps on Huawei mate 9)
 https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png
 
-
-Source code is based upon the following,
-
-[1] Android app is based on [Google NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
-
-[2] The Caffe2 C++ classification procedure is from [Caffe2 example](https://github.com/leonardvandriel/caffe2_cpp_tutorial/blob/master/src/caffe2/binaries/pretrained.cc)
-
-[3] The Caffe2 pretrained protobuf and related libraries are obtained from [AIcamera](https://github.com/bwasti/AICamera)
-
-[4] The OpenCV libraries are obtained from [OpenCV4Android](https://github.com/opencv/opencv/tree/master/samples/android)      
-
-Issues and bugs (memory leaks, resource allocation and free, threads concurrency, how to balance workload between threadd and etc ... ) if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful. 
-
-
 # Source Code Structure
 
   In texture-view,
@@ -65,5 +51,17 @@ Issues and bugs (memory leaks, resource allocation and free, threads concurrency
                          |__AndroidManifest.xml
                                
 
+
+Source code is based upon the following, and I am grateful to them.
+
+[1] NDK sample code is from [Google NDK camera texture-view sample](https://github.com/googlesamples/android-ndk/tree/master/camera)
+
+[2] Caffe2 C++ classification procedure is from [Caffe2 example](https://github.com/leonardvandriel/caffe2_cpp_tutorial/blob/master/src/caffe2/binaries/pretrained.cc)
+
+[3] Caffe2 pretrained protobuf and libraries are from [AIcamera](https://github.com/bwasti/AICamera)
+
+[4] The OpenCV libraries are from [OpenCV4Android](https://github.com/opencv/opencv/tree/master/samples/android)      
+
+Issues and bugs (memory leaks, resource allocation and free, threads concurrency, how to balance workload between threadd and etc ... ) if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful. 
 
 

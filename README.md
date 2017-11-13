@@ -5,7 +5,9 @@ For the purpose of real-time image classificaiton (e.g., open a camera, classify
 Well, often people like me are impatient, and are not interested in the photo itself, only care about the result. And how fast to get result.
 
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
-Caffe and opencv are written in c++, for the sake of performance, it is better to integrate all of them in c++. I am not sure, is it?
+Caffe and opencv are written in c++, for the sake of performance, it is better to integrate all of them in c++. 
+
+I am not sure, is it?
 If performance suffer because of Java, NDK code might come to rescure. Therefore, I intended to speed up real-time image classification by eliminating java code (camera, caffe interaction part) as much as possible. 
 
 Java, of course, plays a crutial role in app lifecycle and user experience.

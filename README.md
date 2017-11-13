@@ -10,10 +10,9 @@ Some people want image classification result at bullet speed.
 Some folks created a Java library for both caffe and opencv, why? 
 
 Caffe and opencv are written in c++, is it better to deal with them in c++ directly for better performance?
-
 I am not sure, is it?
-If performance suffer because of Java, NDK code might come to rescure. Therefore, I intended to speed up real-time image classification by eliminating java code (camera, caffe interaction part) as much as possible. 
 
+If performance suffer because of Java, NDK code might come to rescure. So I tried to eliminate java code (camera, caffe interaction part) as much as possible.
 Java, of course, plays a crutial role in app lifecycle and user experience.
 
 # Where is caffe classification taken place? 

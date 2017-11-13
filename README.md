@@ -2,7 +2,7 @@
 For the purpose of real-time image classificaiton (e.g., open a camera, classify an image as fast as you can), an android app integrating native camera, caffe2, opencv in C++ is created.
 
 # Why real-time?
-Some people want image classification result at bullet speed.
+Folks like me want image classification result at bullet speed.
 
 ( Maybe it is better to add a button to "freeze" the camera preview frame and classificaiton process.)
 

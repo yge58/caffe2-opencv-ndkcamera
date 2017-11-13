@@ -2,7 +2,7 @@
 For the purpose of real-time image classificaiton (e.g., open a camera, classify an image as fast as you can), an android app integrating native camera, caffe2, opencv in C++ is created.
 
 # Why real-time image classification?
-You could take a photo and classify it. But sometime, people like me are not interested in the photo, but the result from classification.
+You could take a photo and classify it. But often people like me are not interested in the photo, but the result from classification.
 
 # There is already similar app (tensorflow, caffe) java based cpp. Why created this cpp based app? (Looking for trouble? XD)
 I intended to speed up real-time image classification by eliminating interaction between ndk C++ side and Java side as much as possible.

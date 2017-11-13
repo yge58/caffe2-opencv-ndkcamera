@@ -1,15 +1,19 @@
-A demo android ndk app combining Caffe2, OpenCV and NDKCamera (texture-view).
+# What is it?
+For the purpose of real-time image classificaiton (e.g., open a camera, classify an image as fast as you can), an android app integrating native camera, caffe2, opencv in C++ is created.
 
-# Why I created this app?
+# Why real-time image classification?
+You could take a photo and classify it. But sometime, people like me are not interested in the photo, but the result from classification.
+
+# There is already similar app (tensorflow, caffe) java based cpp. Why created this cpp based app? (Looking for trouble? XD)
 I intended to speed up real-time image classification by eliminating interaction between ndk C++ side and Java side as much as possible.
 Since both caffe and opencv are written in c++, it is natural to integrate them with NDK camera API. 
 
 
-# where is caffe classification taken place?
+# Where is caffe classification taken place? 
 The whole caffe classification process is taken place in cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.
 I admit that code is extreamly messy and unorganized. Well, as my first app, I will try to do better.
 
-# Screenshot on HUAWEI Mate 9
+# Screenshot on huawei Mate 9
 -----------
 ![screenshot](https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)
 

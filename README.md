@@ -8,7 +8,7 @@ Some people want image classification result at bullet speed.
 
 # There are already similar apps based on tensorflow, caffe. Why created this app, in other words, what is the difference?
 For the sake of performance, is it better to deal with them natively in cpp?
-If performance suffers, it might be a better choice to do the following in pure cpp.
+If performance suffers, it might be a better choice to do the following in NDK.
 
 <1> handle camera at low-level, natively in cpp
 
@@ -18,11 +18,11 @@ If performance suffers, it might be a better choice to do the following in pure 
 
 <4> pre-process image in opencv.
 
-<5> input image to caffe.
+<5> input image to caffe, and run caffe.
 
-<6> retrive result from caffe.
+<6> retrive result from caffe, and call java, "hey java bro, result is ready, display it."
 
-All of the above happen in background threads. Meaning, the classification process is happened in background.
+All of the above happen in background threads. The classification process is happened in background.
 
 Java, of course, plays a crutial role in app lifecycle and user experience.
 

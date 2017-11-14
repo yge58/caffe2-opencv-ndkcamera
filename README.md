@@ -1,7 +1,9 @@
 # What is it?
 An android app runs caffe2 in real-time.
 
-model: SqueezeNet  fps: 6.8 on huawei mate 9
+model: SqueezeNet  
+
+fps: 6.8 on huawei mate 9
 
 
 # How to build?

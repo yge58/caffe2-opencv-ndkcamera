@@ -1,6 +1,9 @@
 # What is it?
 An android app runs caffe2 in real-time.
 
+# fps?
+6.8 on Huawei mate 9. (cpu only, i.e. no opencl support)
+
 
 # Pre-requisites
 <1> android studio 2.3

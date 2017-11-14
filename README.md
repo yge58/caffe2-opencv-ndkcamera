@@ -25,7 +25,7 @@ There are pure java apps, nothing wrong with that, and because of garbage collec
 
 There are java/cpp apps which create a camera in java, an image reader in java, send image from java to cpp, run caffe in cpp, and send result back to java.
 
-Here, in this app, since google released its ndk camera api, I put everything in cpp. However, resource management should be handled explicitly, otherwise memory leaks.
+In this app, I tried to do everything in cpp.
 
 <1> handle camera at low-level in cpp
 

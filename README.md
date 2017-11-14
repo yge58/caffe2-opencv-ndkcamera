@@ -5,6 +5,13 @@ model: SqueezeNet
 
 fps: 6.8 on huawei mate 9
 
+# I have seen other apps running caffe, why redo it, what is the difference?
+<1> Integrate ndk camera with opencv and caffe2 in cpp.
+
+<2> achieve better real-time performance in cpp.
+
+<3> try to minimize jni call between java and cpp.
+
 
 # How to build?
 <1> android studio 2.3
@@ -21,8 +28,9 @@ If compilation failed, try compile [google ndk camera sample](https://github.com
 
 <3> caffe2 
 
-# What is the goal of this app?
-fast image classification, run caffe in real-time.
+# What are the goals of this app?
+<1> integrating caffe2, opencv with android native ndk camera api
+<2> do image classification in real-time
 
 # What is the difference between this app and others?
 In this app, I tried to code almost everything in cpp.

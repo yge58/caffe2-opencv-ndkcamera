@@ -2,6 +2,14 @@
 It does one job: run caffe2 on android with real-time camera.
 
 
+# Pre-requisites
+<1> android studio 2.3
+<2> android-21 and above
+
+# If compilation failed, try compile [this](https://github.com/googlesamples/android-ndk/tree/master/camera) first, if failed again, I am happy to help.
+
+
+
 # Which parts are in cpp?
 <1> native camera (source code from google ndk camera sample, see below)
 

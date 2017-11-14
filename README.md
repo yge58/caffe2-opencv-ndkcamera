@@ -1,45 +1,25 @@
-# What is it?
-An android app runs caffe2 in real-time using previewed NDK camera image.
+# This ndk app is about
 
-model: SqueezeNet  
+<1> Integrating caffe2 and opencv with ndkcamera 
 
-fps: 6.8 on huawei mate 9
+<2> Classify previewed NDK camera image in real-time
 
-# What is the goal?
+# To build
 
-<1> Integrated ndk camera with opencv and caffe2 in cpp.
+Try build [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first.
 
-<2> real-time caffe classification
-
-
-# How to build?
 <1> Android studio 2.3
 
 <2> Android-21 and above
 
-If compilation failed, try compile [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera).
-
 
 # Which parts of program are in cpp?
+
 <1> camera
 
 <2> opencv
 
 <3> caffe2 
-
-# To be specific, the following are in cpp
-
-<1> handle camera at low-level in cpp
-
-<2> retrive raw image data in cpp.
-
-<3> let opencv handle the raw data. (process raw data so that caffe can recognize it.)
-
-<4> input image to caffe, and run caffe.
-
-
-# Where is caffe taken place?
-In cpp/camera/ImageReader.cpp, ImageReader::RunCaffe() method if I remember correctly.
 
 # Screenshot 
 ![screenshot](https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)

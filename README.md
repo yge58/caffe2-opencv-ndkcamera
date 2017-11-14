@@ -5,20 +5,18 @@ model: SqueezeNet
 
 fps: 6.8 on huawei mate 9
 
-# I have seen other apps running caffe, why redo it, what is the difference?
-<1> Integrate ndk camera with opencv and caffe2 in cpp.
+# I have seen apps running caffe, why redo it, what is the difference?
+<1> Integrate ndk camera with opencv and caffe2.
 
-<2> try to gain better real-time performance in cpp.
-
-<3> try to minimize jni call between java and cpp.
+<2> Try to achieve better real-time performance.
 
 
 # How to build?
-<1> android studio 2.3
+<1> Android studio 2.3
 
-<2> android-21 and above
+<2> Android-21 and above
 
-If compilation failed, try compile [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first, if it failed again, I am happy to help.
+If compilation failed, try compile [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera).
 
 
 # Which parts are in cpp?

@@ -1,8 +1,22 @@
 # What is it?
-For the purpose of real-time image classificaiton (e.g., open a camera, classify an image as fast as you can), an android app integrating native camera, caffe2, opencv in C++ is created.
+A ndk app does one job which is running caffe2 in real-time camera.
+
+# What is written in cpp?
+In cpp: 
+<1> native camera (I borrowed source code from google ndk camera sample, see below)
+<2> opencv (for image processing)
+<3> caffe2 (for image classification)
+
+# There is app created in java, why redo it in cpp?
+First, I am a complete newbie in java and android development. 
+Second, both opencv and caffe2 are written in cpp.
+Finally, if you ask me to write a real-time app, I would rather go with cpp.
 
 # Why real-time?
-Instead of taking a photo and send it to caffe waiting for results, some people would love to see results immediately, or better, in real-time. 
+Some impatient geek like me would love to see results immediately, or better, in real-time. 
+
+# Is there performance gain?
+I have not tested. 
 
 # Why created this app?
 This app is created to do real-time image classification at native level. Normally, we would create a camera in java, an image reader in java, send image from java to cpp, run caffe in cpp, and send result back to java. Here, I modified a little bit,

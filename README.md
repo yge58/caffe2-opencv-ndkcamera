@@ -25,7 +25,7 @@ If compilation failed, try compile [google ndk camera sample](https://github.com
 fast image classification, run caffe in real-time.
 
 # What is the difference between this app and others?
-In this app, I tried to do almost everything in cpp.
+In this app, I tried to code almost everything in cpp.
 
 <1> handle camera at low-level in cpp
 

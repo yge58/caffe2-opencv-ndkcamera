@@ -5,7 +5,7 @@ model: SqueezeNet
 
 fps: 6.8 on huawei mate 9
 
-# what is the goal of this app?
+# What is the goal?
 
 <1> Integrated ndk camera with opencv and caffe2 in cpp.
 

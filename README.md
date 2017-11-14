@@ -12,26 +12,17 @@ model: SqueezeNet
 If compilation failed, try compile [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first, if it failed again, I am happy to help.
 
 
-
 # Which parts are in cpp?
-<1> native camera (source code from google ndk camera sample, see below)
+<1> camera
 
-<2> opencv (for image processing)
+<2> opencv
 
-<3> caffe2 (for image classification)
-
-# There is app created in java or java/cpp, why redo it?
-I believe cpp program does a better job for real-time application, and intensive computation like caffe and image processing.
-So I tried to avoid writing java code as much as possible.
+<3> caffe2 
 
 # What is the goal of this app?
 Real-time image classification is the purpose of this app.
 
 # What is the difference between this app and others?
-There are pure java apps, nothing wrong with that, and because of garbage collection, it is safer to go with complete java.
-
-There are java/cpp apps which create a camera in java, an image reader in java, send image from java to cpp, run caffe in cpp, and send result back to java.
-
 In this app, I tried to do almost everything in cpp.
 
 <1> handle camera at low-level in cpp
@@ -44,15 +35,13 @@ In this app, I tried to do almost everything in cpp.
 
 <5> when caffe is done, it's time to inform java, "hey java bro, result is ready, display it."
 
-All of the above cpp code happen in background threads.
-
 Java, of course, plays a crutial role in app lifecycle and user experience.
 
 # Where did it run caffe?
 In cpp/camera/ImageReader.cpp, ImageReader::RunCaffe() method if I remember correctly.
-I appologize for the messy and unorganized code that I wrote. Well, this is my first app after all.
+
 # Screenshot (6.8 fps on Huawei mate 9)
-https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png
+(https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png)
 
 # Source Code Structure
 

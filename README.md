@@ -19,9 +19,8 @@ If compilation failed, try compile [google ndk camera sample](https://github.com
 <3> caffe2 (for image classification)
 
 # There is app created in java or java/cpp, why redo it?
-I want to eliminate java code as much as possible, not because I am against java.
-It is because cpp code does a better job for real-time application, and intensive computation like caffe or image processing.
-
+I believe cpp program does a better job for real-time application, and intensive computation like caffe and image processing.
+So I tried to avoid writing java code as much as possible.
 
 # What is the goal of this app?
 Real-time image classification is the purpose of this app.
@@ -31,7 +30,7 @@ There are pure java apps, nothing wrong with that, and because of garbage collec
 
 There are java/cpp apps which create a camera in java, an image reader in java, send image from java to cpp, run caffe in cpp, and send result back to java.
 
-In this app, I tried to do everything in cpp.
+In this app, I tried to do most of performance-critical stuff in cpp.
 
 <1> handle camera at low-level in cpp
 

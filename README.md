@@ -5,7 +5,7 @@ model: SqueezeNet
 
 fps: 6.8 on huawei mate 9
 
-# I have seen apps running caffe, why redo it, what is the difference?
+# I have seen apps running caffe, why redo it?
 <0> I tried to create a ndk app where most of code related to caffe is in cpp.
 
 <1> Integrated ndk camera with opencv and caffe2 in cpp.
@@ -21,18 +21,14 @@ fps: 6.8 on huawei mate 9
 If compilation failed, try compile [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera).
 
 
-# Which parts are in cpp?
+# Which parts of program are in cpp?
 <1> camera
 
 <2> opencv
 
 <3> caffe2 
 
-# What are the goals of this app?
-<1> integrating caffe2, opencv with android native ndk camera api
-<2> do image classification in real-time
-
-# What is the difference between this app and others?
+# Be specific, what is written in cpp?
 In this app, I tried to code almost everything in cpp.
 
 <1> handle camera at low-level in cpp

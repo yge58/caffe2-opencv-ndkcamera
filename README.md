@@ -1,17 +1,16 @@
 # This ndk app is about
 
-<1> Integrating caffe2 and opencv with ndkcamera 
+<1> Integrating Caffe2 and OpenCV with Android Native NDK camera API.
 
-<2> Classify previewed NDK camera image in real-time
+<2> Classify previewed NDK camera image in real-time.
 
 # To build
 
-<1> Android studio 2.3
+<1> Android Studio 2.3.0 or above
 
-<2> Android-21 and above
+<2> Android-21 or above
 
 If failed, please try build [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first.
-
 
 # Which parts of program are in cpp?
 

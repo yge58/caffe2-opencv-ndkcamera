@@ -4,7 +4,7 @@ An android app runs caffe2 in real-time.
 # fps?
 6.8 fps on Huawei mate 9. 
 
-# Pre-requisites
+# How to build?
 <1> android studio 2.3
 
 <2> android-21 and above

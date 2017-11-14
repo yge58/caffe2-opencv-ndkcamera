@@ -1,5 +1,5 @@
 # What is it?
-It does one job: run caffe2 in real-time. 
+It does one job: run caffe2 on android with real-time camera.
 
 (If you are not comfortable with ndk or cpp, please do not continue, this app might be a waste of your precious time.
 Because of memory leaks, resource management must be taken care of in cpp.)

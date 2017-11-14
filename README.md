@@ -23,9 +23,8 @@ I want to eliminate java code as much as possible, not because I am against java
 It is because cpp code does a better job for real-time application, and intensive computation like caffe or image processing.
 
 
-# Why real-time?
-Some folks love seeing caffe results immediately, or better, in real-time. 
-
+# What is the goal of this app?
+Real-time image classification is the purpose of this app.
 
 # What is the difference between this app and others?
 There are pure java apps, nothing wrong with that, and because of garbage collection, it is safer to go with complete java.

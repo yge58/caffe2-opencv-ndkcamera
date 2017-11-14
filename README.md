@@ -1,5 +1,5 @@
 # What is it?
-A ndk app does one job which is running caffe2 in real-time camera.
+A ndk app does one job which is running caffe2 in real-time
 
 # Which parts are written in cpp?
 In cpp: 

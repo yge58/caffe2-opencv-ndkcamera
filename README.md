@@ -27,8 +27,7 @@ If compilation failed, try compile [google ndk camera sample](https://github.com
 
 <3> caffe2 
 
-# Be specific, what is written in cpp?
-In this app, I tried to code almost everything in cpp.
+# To be specific, the following are in cpp
 
 <1> handle camera at low-level in cpp
 

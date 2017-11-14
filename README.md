@@ -37,11 +37,8 @@ If compilation failed, try compile [google ndk camera sample](https://github.com
 
 <4> input image to caffe, and run caffe.
 
-<5> when caffe is done, it's time to inform java, "hey java bro, result is ready, display it."
 
-Java, of course, plays a crutial role in app lifecycle and user experience.
-
-# Where did it run caffe?
+# Where is caffe taken place?
 In cpp/camera/ImageReader.cpp, ImageReader::RunCaffe() method if I remember correctly.
 
 # Screenshot 

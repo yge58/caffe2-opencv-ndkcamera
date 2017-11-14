@@ -1,6 +1,10 @@
 # What is it?
 It does one job: run image classification (SqueezeNet) using caffe2 with real-time camera.
 
+If you are not comfortable with ndk or cpp, please do not continue, this app might be a waste of your precious time.
+
+Because of memory leaks, resource management must be taken care of in cpp.
+
 # Which parts are in cpp?
 <1> native camera (source code from google ndk camera sample, see below)
 
@@ -10,17 +14,19 @@ It does one job: run image classification (SqueezeNet) using caffe2 with real-ti
 
 # There is app created in java or java/cpp, why redo it?
 I want to eliminate java code as much as possible, not because I am against java.
-It is because cpp code is better for real-time app, and intensive computation like caffe.
+It is because cpp code does a better job for real-time application, and intensive computation like caffe or image processing.
 
 
 # Why real-time?
-Some folks would love to see caffe results immediately, or better, in real-time. 
+Some folks love seeing caffe results immediately, or better, in real-time. 
 
-# Is there performance gain over other app based on java or half java, half cpp?
-I have not tested. 
 
-# Why created this app?
-This app is created to do real-time image classification at native level. Normally, we would create a camera in java, an image reader in java, send image from java to cpp, run caffe in cpp, and send result back to java. Here, I modified a little bit,
+# What is the difference between this app and others?
+There are pure java apps, nothing wrong with that, and because of garbage collection, it is safer to go with complete java.
+
+There are java/cpp apps which create a camera in java, an image reader in java, send image from java to cpp, run caffe in cpp, and send result back to java.
+
+Here, in this app, since google released its ndk camera api, I put everything in cpp. However, resource management should be handled explicitly, otherwise memory leaks.
 
 <1> handle camera at low-level in cpp
 
@@ -28,9 +34,9 @@ This app is created to do real-time image classification at native level. Normal
 
 <3> let opencv handle the raw data. (process raw data so that caffe can recognize it.)
 
-<5> input image to caffe, and run caffe.
+<4> input image to caffe, and run caffe.
 
-<6> when caffe is done, it's time to inform java, "hey java bro, result is ready, display it."
+<5> when caffe is done, it's time to inform java, "hey java bro, result is ready, display it."
 
 All of the above cpp code happen in background threads.
 

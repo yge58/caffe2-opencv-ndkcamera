@@ -8,7 +8,7 @@ fps: 6.8 on huawei mate 9
 # I have seen other apps running caffe, why redo it, what is the difference?
 <1> Integrate ndk camera with opencv and caffe2 in cpp.
 
-<2> achieve better real-time performance in cpp.
+<2> try to gain better real-time performance in cpp.
 
 <3> try to minimize jni call between java and cpp.
 

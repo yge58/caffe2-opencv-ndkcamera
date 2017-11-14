@@ -46,8 +46,8 @@ All of the above cpp code happen in background threads.
 
 Java, of course, plays a crutial role in app lifecycle and user experience.
 
-# Where did you run caffe?
-In cpp/camera/ImageReader.cpp, runcaffe() method if I remember correctly.
+# Where did it run caffe?
+In cpp/camera/ImageReader.cpp, ImageReader::RunCaffe() method if I remember correctly.
 I appologize for the messy and unorganized code that I wrote. Well, this is my first app after all.
 # Screenshot (6.8 fps on Huawei mate 9)
 https://github.com/yge58/caffe2-opencv-ndkcamera/blob/master/device-2017-10-23-185701.png

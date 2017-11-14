@@ -6,11 +6,11 @@
 
 # To build
 
-Try build [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first.
-
 <1> Android studio 2.3
 
 <2> Android-21 and above
+
+If failed, please try build [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first.
 
 
 # Which parts of program are in cpp?

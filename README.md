@@ -9,7 +9,7 @@ fps: 6.8 on huawei mate 9
 
 <1> Integrated ndk camera with opencv and caffe2 in cpp.
 
-<2> caffe classification in real-time camera footage.
+<2> real-time caffe classification
 
 
 # How to build?

@@ -7,7 +7,7 @@ It does one job: run caffe2 on android with real-time camera.
 
 <2> android-21 and above
 
-If compilation failed, try compile [ndk Camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first, if failed again, I am happy to help.
+If compilation failed, try compile [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first, if failed again, I am happy to help.
 
 
 

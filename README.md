@@ -1,5 +1,5 @@
 # What is it?
-It does one job: run caffe2 on android with real-time camera.
+An android app runs caffe2 in real-time.
 
 
 # Pre-requisites

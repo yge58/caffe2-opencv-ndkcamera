@@ -1,21 +1,26 @@
 # What is it?
 A ndk app does one job which is running caffe2 in real-time camera.
 
-# What is written in cpp?
+# Which parts are written in cpp?
 In cpp: 
+
 <1> native camera (I borrowed source code from google ndk camera sample, see below)
+
 <2> opencv (for image processing)
+
 <3> caffe2 (for image classification)
 
 # There is app created in java, why redo it in cpp?
-First, I am a complete newbie in java and android development. 
-Second, both opencv and caffe2 are written in cpp.
-Finally, if you ask me to write a real-time app, I would rather go with cpp.
+<1> I am a complete newbie in java and android development.
+
+<2> both opencv and caffe2 are written in cpp.
+
+<3> if you ask me to write a real-time app, I prefer c/c++ to java.
 
 # Why real-time?
-Some impatient geek like me would love to see results immediately, or better, in real-time. 
+Some folks would love to see caffe results immediately, or better, in real-time. 
 
-# Is there performance gain?
+# Is there performance gain over other app based on java or half java, half cpp?
 I have not tested. 
 
 # Why created this app?

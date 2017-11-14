@@ -1,14 +1,16 @@
 # What is it?
-An android app runs caffe2 in real-time.
+An android app runs caffe2 in real-time using previewed NDK camera image.
 
 model: SqueezeNet  
 
 fps: 6.8 on huawei mate 9
 
 # I have seen apps running caffe, why redo it, what is the difference?
-<1> Integrate ndk camera with opencv and caffe2.
+<0> I tried to create a ndk app where most of code is in cpp.
 
-<2> Try to achieve better real-time performance.
+<1> Integrated ndk camera with opencv and caffe2 in cpp.
+
+<2> Tried to achieve better real-time performance.
 
 
 # How to build?

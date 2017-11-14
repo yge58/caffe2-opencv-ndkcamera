@@ -22,7 +22,7 @@ If compilation failed, try compile [google ndk camera sample](https://github.com
 <3> caffe2 
 
 # What is the goal of this app?
-Real-time image classification is the purpose of this app.
+fast image classification, run caffe in real-time.
 
 # What is the difference between this app and others?
 In this app, I tried to do almost everything in cpp.

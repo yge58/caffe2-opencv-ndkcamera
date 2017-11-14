@@ -6,7 +6,7 @@ model: SqueezeNet
 fps: 6.8 on huawei mate 9
 
 # I have seen apps running caffe, why redo it, what is the difference?
-<0> I tried to create a ndk app where most of code is in cpp.
+<0> I tried to create a ndk app where most of code related to caffe is in cpp.
 
 <1> Integrated ndk camera with opencv and caffe2 in cpp.
 

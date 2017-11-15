@@ -1,10 +1,10 @@
-# This ndk app is about
+# What is it?
 
 <1> Integrating Caffe2 and OpenCV with Android Native NDK camera API.
 
 <2> Classify previewed NDK camera image in real-time.
 
-# If you are unfamiliar with NDK development, the following doc may be helpful.
+# I found these NDK development doc very helpful.
 
 - [Android App Activity Lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
 - [how to debug ndk app](https://developer.android.com/studio/debug/index.html)

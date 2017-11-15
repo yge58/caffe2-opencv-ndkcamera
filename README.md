@@ -4,15 +4,7 @@
 
 <2> Classify previewed NDK camera image in real-time.
 
-# I found these NDK development doc very helpful.
-
-- [Android App Activity Lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
-- [how to debug ndk app](https://developer.android.com/studio/debug/index.html)
-- [NDK basics](https://developer.android.com/ndk/guides/index.html)
-- [how to use CMake](https://developer.android.com/ndk/guides/cmake.html)
-
-
-# To build
+# How to build
 
 <1> Android Studio 2.3.0 or above
 
@@ -20,7 +12,7 @@
 
 If failed, please try build [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first.
 
-# Which parts of program are in cpp?
+# Which parts of program are in NDK?
 
 <1> camera
 
@@ -75,6 +67,14 @@ Source code is based upon the following, and I am grateful to them.
 
 [4] The OpenCV libraries are from [OpenCV4Android](https://github.com/opencv/opencv/tree/master/samples/android)      
 
-Issues and bugs (memory leaks, resource allocation and free, threads concurrency, how to balance workload between threadd and etc ... ) if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful. 
+# And these NDK documentation are very helpful.
+
+- [Android App Activity Lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
+- [how to debug ndk app](https://developer.android.com/studio/debug/index.html)
+- [NDK basics](https://developer.android.com/ndk/guides/index.html)
+- [how to use CMake](https://developer.android.com/ndk/guides/cmake.html)
+
+
+Issues and bugs (memory leaks, resource allocation and free, threads concurrency, how to balance workload between threads and etc ... ) if you see any of them or have any improvement suggestions, please help me by filing as many issues as you want. I will be very grateful. 
 
 

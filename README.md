@@ -10,7 +10,7 @@
 
 <2> Android-21 or above
 
-If failed, please try build [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera) first.
+If building this app failed, please build [google ndk camera sample](https://github.com/googlesamples/android-ndk/tree/master/camera).
 
 # Which parts of program are in NDK?
 

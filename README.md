@@ -1,6 +1,6 @@
 # What is it?
 
-Real-time camera preview with caffe2. And this is my first NDK app.  = )
+Real-time camera preview with caffe2. And it happens in NDK  :)
 
 # How to build
 

@@ -1,8 +1,6 @@
 # What is it?
 
-<1> Integrating Caffe2 and OpenCV with Android Native NDK camera API.
-
-<2> Classify previewed NDK camera image in real-time.
+Real-time camera preview with caffe2. And this is my first NDK app. :)
 
 # How to build
 

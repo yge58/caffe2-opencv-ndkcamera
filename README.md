@@ -4,6 +4,14 @@
 
 <2> Classify previewed NDK camera image in real-time.
 
+# If you are unfamiliar with NDK development, the following doc may be helpful.
+
+- [Android App Activity Lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
+- [how to debug ndk app](https://developer.android.com/studio/debug/index.html)
+- [NDK basics](https://developer.android.com/ndk/guides/index.html)
+- [how to use CMake](https://developer.android.com/ndk/guides/cmake.html)
+
+
 # To build
 
 <1> Android Studio 2.3.0 or above

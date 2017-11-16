@@ -1,6 +1,6 @@
 # What is it?
 
-Real-time camera preview with caffe2. And it happens in NDK  :)
+An android ndk app integrating caffe2, opencv and ndk camera.
 
 # How to build
 
